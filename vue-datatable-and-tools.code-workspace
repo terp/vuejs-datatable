@@ -1,0 +1,25 @@
+{
+	"folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "C:\\GitProjects\\Perruque\\foodoc"
+        },
+        {
+            "path": "C:\\GitProjects\\Perruque\\foodoc-typedoc"
+        },
+        {
+            "path": "C:\\GitProjects\\Perruque\\typedoc-default-themes"
+        },
+        {
+            "path": "C:\\GitProjects\\Perruque\\typedoc-plugin-tutorials"
+        },
+        {
+            "path": "C:\\GitProjects\\typedoc"
+        }
+    ],
+    "settings": {
+        "vetur.validation.template": false
+    }
+}

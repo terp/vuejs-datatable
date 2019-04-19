@@ -7,10 +7,10 @@
     "browser": "dist/vuejs-datatable.esm.js",
     "types": "dist/index-esm.d.ts",
     "scripts": {
-        "doc": "npm run doc:examples && npm run doc:copy-assets && npm run doc:jsdoc",
+        "doc": "npm run doc:examples && npm run doc:copy-assets && npm run doc:typedoc",
         "doc:copy-assets": "cp-cli dist/vuejs-datatable.js tutorials/assets/assets/vuejs-datatable.js",
         "doc:examples": "rimraf tutorials/builds && node --experimental-modules tutorials/build-examples.mjs",
-        "doc:jsdoc": "rimraf docs && jsdoc -c jsdoc.conf.js .",
+        "doc:typedoc": "rimraf docs && typedoc --options ./typedoc.json",
         "test": "npm run test:unit && npm run test:integration",
         "test:ci": "jest --config jest.config.js",
         "test:ci:watch": "npm run test:ci --watch",
@@ -88,7 +88,8 @@
         "ts-jest": "^24.0.2",
         "tslint": "^5.15.0",
         "tslint-eslint-rules": "^5.4.0",
-        "typescript": "^3.4.1",
+        "typedoc": "^0.14.2",
+        "typescript": "^3.4.3",
         "vue": "^2.6.10",
         "vue-jest": "^3.0.4",
         "vue-template-compiler": "^2.6.10"
